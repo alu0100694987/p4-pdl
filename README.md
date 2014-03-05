@@ -9,9 +9,12 @@
 
 El objetivo de la práctica reside en reescribir el analizador léxico de un subconjunto de JavaScript realizado por Douglas Crockford, empleando expresiones regulares. 
 
-## Requisitos de la Práctica
+## Realización de la Práctica
 
-* README.md [Cumplido] - Cristo
+* README.md - Cristo [OK]
+* app.rb - Cristo [OK]
+* Estilo inicial e imágenes - Cristo [OK]
+* Plantillas - 'layout.rb' y 'index.rb' - Cristo [OK]
 
 ## Despliegue
 

@@ -1,0 +1,170 @@
+
+/* Fuentes */
+
+  @font-face {
+    font-family: 'Andika';
+    src: url("fuentes/Andika-R.ttf");
+  }
+
+/* General */
+
+  html * {
+    font-family: "Arial", sans-serif;    
+  }
+
+  body {
+    background: #183026 url('images/bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    background-attachment: fixed;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  h1 {
+    font-family: Andika;
+    font-size: 80px;
+    text-shadow: 0px 0px 8px white;
+    text-align: center; 
+  }
+  
+  p {
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 0.8em;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #A9A9F5;
+    font-size: 22 px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    background-color:black; 
+    color: #FFF;
+  }
+  
+  a:link { 
+    color:#00FFFF; 
+  }
+  
+  a:visited { 
+    color:black;
+  }
+  
+  a:active {
+    color:#0000FF;
+  }
+  
+  ul li {
+    color: #A9D0F5;
+    text-align: justify; 
+  }
+
+  span {
+    color: #B404AE;
+    font-weight: bold;
+  }
+  
+  footer {
+    position:fixed;
+    left:0;
+    bottom:0;
+    height:20px;
+    width:100%;
+    padding: 0.6em 0 0.6em 0;
+    box-shadow: inset 0px 10px 60px 0px rgba(255,255,255,0.15);
+  }
+  
+  pre {
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+  }
+  
+  .thumb {
+    height: 75px;
+    border: 1px solid #000;
+    margin: 10px 5px 0 0;
+  }
+
+  th, td  { 
+    vertical-align: top; 
+    text-align: left; 
+  }
+  
+  th {
+    background-color: thistle; border: black solid 1px; text-align: left;
+    padding-left: 10px; padding-right: 10px; vertical-align: top;
+  }
+  
+  td {
+    background-color: white; border: black solid 1pt; padding-left: 10px;
+    padding-right: 10px; vertical-align: top;
+  }
+
+  input { 
+    text-align: right;  border: none;       
+  }
+  
+  textarea { 
+    border: outset; border-color: white;       
+  }
+  
+  table { 
+    border: collapse; border-color: white;
+    width: 90%; border: 0px; cellpadding: 0px;
+  }
+  
+/* Contenido */
+
+  #contenido {
+    padding-bottom: 60px;
+  }
+  
+  #input {
+    border: none; 
+    color: black;
+    font-family: monospace;
+    height: 1in;
+    overflow: auto;
+    /* padding: 0.5em; */
+    width: 80%;
+    background-color: #66FFCC; 
+  }
+  
+  #output {
+    background-color: #66FFCC; 
+    width: 80%;
+  }
+
+  #parse:focus {
+    outline:0; 
+  }
+
+  table.center { 
+    margin-left:auto; margin-right:auto; 
+  }
+
+/* Pie de página */
+
+  #piedepagina {
+    text-align: center;
+    text-shadow: 1.5px 1.5px 1.5px white;
+    color: white;
+  }
+  
+  #piedepagina a {
+    color: white;
+  }
+  
+  #piedepagina a:hover {
+    color: white;
+    text-shadow: 1.5px 1.5px 1.5px black, 0px 4px 1px white;
+    text-decoration: none;
+  }
