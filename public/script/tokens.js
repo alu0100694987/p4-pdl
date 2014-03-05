@@ -33,8 +33,8 @@ String.prototype.tokens = function () {
     var ID                  	= /[a-zA-Z_]\w*/g;
     var NUM                 	= /\b\d+(\.\d+)?(e[+-]?\d+)?\b/ig;
     var STRING              	= /('(\\.|[^'])*'|"(\\.|[^"])*")/g;
-    var TWOCHAROPERATORS    	= /([+-*/%]=|[+][+]|--|[=<>][=<>]|&&|[|][|])/g;
-    var ONECHAROPERATORS    	= /([+-*/%=~&|;:,<>!^{}()[\]])/g; // May be some character is missing?
+    var TWOCHAROPERATORS    	= /([+-\/%]=|[*]=|[+][+]|[-][-]|[=<>][=<>]|[&][&]|[|][|])/g;
+    var ONECHAROPERATORS    	= /([+-\/%=~&|;:,<>!^{}()[\]]|[*])/g; // May be some character is missing?
     var tokens = [WHITES, ONELINECOMMENT, MULTIPLELINECOMMENT, 
 		  ID, NUM, STRING, TWOCHAROPERATORS, ONECHAROPERATORS];
 
@@ -94,7 +94,7 @@ String.prototype.tokens = function () {
         } 
         
         // operators
-        else if (m = TWOCHAROPERATORS.bexec(this) || m = ONECHAROPERATORS.bexec(this))) {
+        else if (m = TWOCHAROPERATORS.bexec(this) || (m = ONECHAROPERATORS.bexec(this))) {
             result.push(make('operator', getTok()));
         } 
         

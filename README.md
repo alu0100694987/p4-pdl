@@ -12,9 +12,15 @@ El objetivo de la práctica reside en reescribir el analizador léxico de un subco
 ## Realización de la Práctica
 
 * README.md - Cristo [OK]
-* app.rb - Cristo [OK]
+* Estructura de directorios - Cristo [OK]
 * Estilo inicial e imágenes - Cristo [OK]
-* Plantillas - 'layout.rb' y 'index.rb' - Cristo [OK]
+* Aplicación ruby - Cristo [OK]
+* Plantillas, 'layout.rb' e 'index.rb' - Cristo [OK]
+* Implementación analizador - Cristo [OK]
+* Carga de ficheros [PENDIENTE]
+* Pruebas [PENDIENTE]
+* Despliegue Heroku [PENDIENTE]
+* Estilo final [PENDIENTE]
 
 ## Despliegue
 

@@ -38,7 +38,6 @@
   a {
     text-decoration: none;
     color: #A9A9F5;
-    font-size: 22 px;
   }
   
   a:hover {
@@ -80,10 +79,8 @@
   
   pre {
     white-space: pre-wrap;       /* css-3 */
-    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-    white-space: -pre-wrap;      /* Opera 4-6 */
-    white-space: -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    padding-left: 10px;
   }
   
   .thumb {
@@ -112,12 +109,12 @@
   }
   
   textarea { 
-    border: outset; border-color: white;       
+    border: outset; border-color: white;
   }
   
   table { 
-    border: collapse; border-color: white;
-    width: 90%; border: 0px; cellpadding: 0px;
+    border-color: white;
+    width: 90%; border: 0px;
   }
   
 /* Contenido */
@@ -152,10 +149,8 @@
   
   .mylink {
     background-color: #66FFCC;
-    -moz-border-radius: 15px;
     -webkit-border-radius: 15px;
     border: 5px solid #009900;
-    padding: 5px;
   }
 
 /* Pie de página */
