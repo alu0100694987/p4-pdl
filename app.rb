@@ -7,3 +7,5 @@ end
 get '/tests' do
   erb :tests
 end
+
+_END_

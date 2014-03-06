@@ -1,15 +1,37 @@
-    
-<p>Acceso a las pruebas: <a href="/tests">Pruebas</a></p>
-<p>Acceso al repositorio GitHub del proyecto: <a href="https://github.com/alu0100694987/p4-pdl" target="_blank">Repositorio GitHub</a></p>
-
-<p> Indique un fichero con c&oacute;digo JavaScript: </p>
-<textarea id="input">
-  var a = "hello"; // initialize a
-  var b = function(x) {
-            var c = 3;
-            return x+c;
-          };
-</textarea>
-<br>
-<input id="parse" value=parse type=button class="mylink">
-<pre id="output"></pre>
+    <!DOCTYPE html>
+       <html>
+       <head>
+          <link href="global.css" rel="stylesheet" type="text/css">
+          <script src="script/tokens.js"></script>
+          <script src="script/parse.js"></script>
+          <script src="script/main.js"></script>
+       </head>
+       <body>
+        <script>
+       function dump(fileName) {
+           $.get(fileName, function (data) {
+               $("#INPUT").val(data);
+           });
+       };
+     </script> 
+       <h1>Analizador L&eacute;xico de Javascript</h1>
+       <p>Acceso a las pruebas: <a href="/tests">Pruebas</a></p>
+       <p>Acceso al repositorio GitHub del proyecto: <a href="https://github.com/alu0100694987/p4-pdl" target="_blank">Repositorio GitHub</a></p>
+       <div style="display:inline">
+           <button id ="fichero1" type="button" onclick="dump('textos/fihcero1.txt');">fichero1</button>
+           <button id ="fichero2"  type="button" onclick="dump('textos/fihcero2.txt');">fichero2</button>
+           <button id ="fichero3"  type="button" onclick="dump('textos/fihcero3.txt');">fichero3</button>
+       </div>    
+       <p> Indique un fichero con c&oacute;digo JavaScript: </p>
+       <textarea id="INPUT">
+         var a = "hello"; // initialize a
+         var b = function(x) {
+                   var c = 3;
+                   return x+c;
+                 };
+       </textarea>
+       <br>
+       <input id="parse" value=parse type=button class="mylink">
+       <pre id="output"></pre>
+       </body>
+       </html>
