@@ -20,7 +20,7 @@ RegExp.prototype.bexec = function(s) {
 }
 
 String.prototype.tokens = function () {
-  
+
     var from;                   // The index of the start of the token.
     var i = 0;                  // The index of the current character.
     var n;                      // The number value.
