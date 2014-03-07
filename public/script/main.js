@@ -12,6 +12,7 @@ function main() {
   var source = " " + input.value;
   var string, tree;
   
+  
   try {
     
     tree = source.tokens();
@@ -24,19 +25,19 @@ function main() {
   }
   
   output.innerHTML = string.replace(/&/g, '&amp;').replace(/[<]/g, '&lt;');
-  OUTPUT.className = "unhidden";
+  /*OUTPUT.className = "unhidden";
 	if (window.localStorage) {
 	  localStorage.INPUT = source;
 	  localStorage.OUTPUT = OUTPUT.innerHTML;
-	}
+	}*/
 };
 
 window.onload = function() {
   
   parse.onclick = main;
-  if (window.localStorage && localStorage.INPUT && localStorage.OUTPUT) {
+/*  if (window.localStorage && localStorage.INPUT && localStorage.OUTPUT) {
        document.getElementById("INPUT").innerHTML = localStorage.INPUT;
        document.getElementById("OUTPUT").innerHTML = localStorage.OUTPUT;
        document.getElementById("OUTPUT").className = "unhidden";
-    }
+    }*/
 }
