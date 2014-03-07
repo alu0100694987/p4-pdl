@@ -15,13 +15,14 @@ El objetivo de la práctica reside en reescribir el analizador léxico de un subco
 * Estructura de directorios - Cristo [OK]
 * Estilo inicial e imágenes - Cristo [OK]
 * Aplicación ruby - Cristo [OK]
-* Plantillas, 'layout.rb' e 'index.rb' - Cristo [OK]
-* Implementación analizador - Cristo [OK]
-* Carga de ficheros [PENDIENTE]
-* Pruebas [PENDIENTE]
-* Despliegue Heroku [PENDIENTE]
-* Estilo final [PENDIENTE]
+* Plantillas, 'layout.rb' e 'index.rb' - Cristo | Sawan [OK]
+* Implementación analizador - Cristo | Sawan [OK]
+* Carga de ficheros - Sawan [OK]
+* Code Mirror - Sawan [PENDIENTE]
+* Pruebas - Sawan [OK]
+* Despliegue Heroku - Cristo [PENDIENTE]
+* Estilo final - Sawan [PENDIENTE]
 
 ## Despliegue
 
-* https://github.com/alu0100694987/p4-pdl
+* https://github.com/alu0100694987/p4-pdl [PENDIENTE+
