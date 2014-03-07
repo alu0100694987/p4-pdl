@@ -1,20 +1,4 @@
-    <!DOCTYPE html>
-       <html>
-       <body>
-        <script>
-    var editor = CodeMirror.fromTextArea(document.getElementById("input"), {
-      lineNumbers: true,
-      viewportMargin: Infinity
-    });
 
-    
-    function dump(fileName) {
-      $.get(fileName, function (data) {
-        $("#input").val(data);
-		  editor.setValue(data);
-      });
-    };
-   </script>
        <p>Acceso a las pruebas: <a href="/tests">Pruebas</a></p>
        <p>Acceso al repositorio GitHub del proyecto: <a href="https://github.com/alu0100694987/p4-pdl" target="_blank">Repositorio GitHub</a></p>
        <p>Douglas Crockford escribi&oacute; su analizador l&eacute;xico tokens.js sin usar expresiones regulares.
@@ -52,5 +36,18 @@
        <br>
        <input id="parse" value=parse type=button class="styled-button-1">
        <pre id="output"></pre>
-       </body>
-       </html>
+
+    <script>
+      var editor = CodeMirror.fromTextArea(document.getElementById("input"), {
+        lineNumbers: true,
+        viewportMargin: Infinity
+      });
+
+    
+      function dump(fileName) {
+        $.get(fileName, function (data) {
+          $("#input").val(data);
+            editor.setValue(data);
+        });
+      };
+   </script>
