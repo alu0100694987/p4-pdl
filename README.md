@@ -18,11 +18,11 @@ El objetivo de la práctica reside en reescribir el analizador léxico de un subco
 * Plantillas, 'layout.rb' e 'index.rb' - Cristo | Sawan [OK]
 * Implementación analizador - Cristo | Sawan [OK]
 * Carga de ficheros - Sawan [OK]
-* Code Mirror - Sawan [PENDIENTE]
+* Code Mirror - Cristo | Sawan [OK]
 * Pruebas - Sawan [OK]
-* Despliegue Heroku - Cristo [PENDIENTE]
-* Estilo final - Sawan [PENDIENTE]
+* Despliegue Heroku - Cristo [OK]
+* Estilo final - Sawan [OK]
 
 ## Despliegue
 
-* https://github.com/alu0100694987/p4-pdl [PENDIENTE+
+* http://analizador-pdl4.herokuapp.com/ 
