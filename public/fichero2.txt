@@ -1,0 +1,4 @@
+ var f = function(a){
+		this.a = a;
+                return this.nombre;
+             };

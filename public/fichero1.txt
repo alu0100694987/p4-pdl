@@ -1,0 +1,5 @@
+var z = "Hola Mundo"; 
+     var b = function(s) {
+             var c = 5;
+               return s+c;
+             };
