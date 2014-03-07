@@ -25,4 +25,5 @@ El objetivo de la práctica reside en reescribir el analizador léxico de un subco
 
 ## Despliegue
 
-* http://analizador-pdl4.herokuapp.com/ 
+* Heroku: http://analizador-pdl4.herokuapp.com/ 
+* Pruebas: http://analizador-pdl4.herokuapp.com/tests
