@@ -9,11 +9,11 @@
 /* General */
 
 .styled-button-1 {
-	-webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	/*-webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
 	-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
-	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;*/
 	color:#333;
-	background-color:#FA2;
+	background-color:#40FF00;
 	border-radius:5px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
@@ -23,7 +23,7 @@
 	font-weight:700;
 	height:32px;
 	padding:4px 16px;
-	text-shadow:#FE6 0 1px 0
+	/*text-shadow:#FE6 0 1px 0*/
 }
 
 
@@ -71,7 +71,7 @@
   }
   
   a:visited { 
-    color:black;
+    color:#40FF00;
   }
   
   a:active {
@@ -158,11 +158,11 @@
     overflow: auto;
     /* padding: 0.5em; */
     width: 80%;
-    background-color: #66FFCC; 
+    background-color: #81F781; 
   }
   
   #output {
-    background-color: #66FFCC; 
+    background-color: #81F781; 
     width: 80%;
   }
 
