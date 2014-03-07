@@ -17,7 +17,26 @@
    </script>
        <p>Acceso a las pruebas: <a href="/tests">Pruebas</a></p>
        <p>Acceso al repositorio GitHub del proyecto: <a href="https://github.com/alu0100694987/p4-pdl" target="_blank">Repositorio GitHub</a></p>
-       <div style="display:inline">
+       <p>Douglas Crockford escribi&oacute; su analizador l&eacute;xico tokens.js sin usar expresiones regulares.
+        Eso hace que sea extenso (268 l&iacute;neas). Su analizador es un subconjunto de JS que no tiene
+        - entre otras cosas - expresiones regulares y uno de sus objetivos era que el analizador
+        se analizara a si mismo.</p>
+        <div id="ejemplo">	
+	  <p> Si desea conocer m&aacute;s acerca de Douglas Crockford pulse [ <a href="#" onclick="cambiar('texto'); return false;">mostrar/ocultar</a> ]</p>
+	  <div id="texto" style="display: none">
+       <fieldset>
+        <p>Biograf&iacute;a :</p>
+        <a href="http://en.wikipedia.org/wiki/Douglas_Crockford" target="_blank">http://en.wikipedia.org/wiki/Douglas_Crockford</a>
+        <p>Paacute;gina personal :</p>
+        <a href="http://www.crockford.com/" target="_blank">http://www.crockford.com/</a>
+       </fieldset>
+        </div>   
+	</div>
+       <p>En este proyecto se reescribir&aacute; este analizador l&eacute;xico, pero esta vez empleando
+            expresiones regulares consiguiendo asi una mayor optimizaci&oacute; del c&oacute;digo de
+       Douglas Crockford.</p>
+       
+       <div style="display:inline" id="botones" >
            <button id ="fichero1" type="button" class="styled-button-1" onclick="dump('fichero1.txt');">fichero1</button>
            <button id ="fichero2"  type="button" class="styled-button-1" onclick="dump('fichero2.txt');">fichero2</button>
            <button id ="fichero3"  type="button" class="styled-button-1" onclick="dump('fichero3.txt');">fichero3</button>

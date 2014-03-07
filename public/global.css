@@ -140,6 +140,12 @@
   
 /* Contenido */
 
+  #botones {
+    
+  left: 50%;
+  margin-left: 175px;
+  }
+
   #contenido {
     padding-bottom: 60px;
   }
